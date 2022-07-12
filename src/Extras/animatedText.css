@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900");
+
+.centerlise{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  width: 100%;
+}
+
+.animatedText {
+  display: flex;
+  justify-content: start;
+  /* padding-top: 5%;
+  padding-left: 8%; */
+  margin: 0;
+  width: 100%;
+  text-transform: uppercase;
+  /* font-family: ; */
+  font-size: 70px;
+  letter-spacing: 1vw;
+  position: absolute;
+  top: 10%;
+  left: 58.7%;
+  transform: translateX(-50%);
+  color: white;
+  background: url("https://thumbs.dreamstime.com/b/tropical-flower-pattern-seamless-flowers-blossom-flowers-nature-background-vector-illustration-61142748.jpg");
+  background-size: auto 200%;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 8s linear infinite;
+}
+/* h1:nth-child(2) {
+  top: 50vh;
+} */
+@keyframes shine {
+  from {
+    background-position: center 0;
+  }
+  to {
+    background-position: center 200%;
+  }
+}
