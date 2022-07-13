@@ -38,7 +38,7 @@ const Features = () => {
                                         <div className="col-md-6" style={{minHeight: "350px"}}>
                                             <div className="position-relative h-100">
                                                 <img className="position-absolute img-fluid w-100 h-100"
-                                                    src="./img/feature1.jpg" style={{objectFit: "cover"}} alt=""/>
+                                                    src="img/feature1.jpg" style={{objectFit: "cover"}} alt=""/>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
@@ -61,7 +61,7 @@ const Features = () => {
                                         <div className="col-md-6" style={{minHeight: "350px"}}>
                                             <div className="position-relative h-100">
                                                 <img className="position-absolute img-fluid w-100 h-100"
-                                                    src="./img/feature2.jpg" style={{objectFit: "cover"}} alt=""/>
+                                                    src="img/feature2.jpg" style={{objectFit: "cover"}} alt=""/>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
@@ -84,7 +84,7 @@ const Features = () => {
                                         <div className="col-md-6" style={{minHeight: "350px"}}>
                                             <div className="position-relative h-100">
                                                 <img className="position-absolute img-fluid w-100 h-100"
-                                                    src="./img/feature3.jpg" style={{objectFit: "cover"}} alt=""/>
+                                                    src="img/feature3.jpg" style={{objectFit: "cover"}} alt=""/>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
@@ -107,7 +107,7 @@ const Features = () => {
                                         <div className="col-md-6" style={{minHeight: "350px"}}>
                                             <div className="position-relative h-100">
                                                 <img className="position-absolute img-fluid w-100 h-100"
-                                                    src="./img/feature4.jpg" style={{objectFit: "cover"}} alt=""/>
+                                                    src="img/feature4.jpg" style={{objectFit: "cover"}} alt=""/>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
