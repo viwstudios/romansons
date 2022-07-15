@@ -10,7 +10,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 h1,
@@ -785,7 +785,6 @@ h6,
   transform: translate(-50%, -50%);
   top: 50%;
 }
-
 @media only screen and (max-width: 767px) and (min-width: 601px) {
   .book-card {
     min-width: 80%;
