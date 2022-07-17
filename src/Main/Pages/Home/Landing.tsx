@@ -5,11 +5,11 @@ import Pricing from '../../Components/Home/Pricing'
 
 const Landing = () => {
   return (
-    <div>
+    <>
         <Hero/>
         <Pricing/>
         <Features/>
-    </div>
+    </>
   )
 }
 

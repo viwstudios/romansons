@@ -12,13 +12,15 @@ import CalculPage from "./Main/Pages/Calculator/CalculPage";
 import Projects from "./Main/Components/Projects/Projects";
 import Testimonials from "./Main/Components/Testimonials/Testimonials";
 import Contact from "./Main/Components/Contact/Contact";
+import Login from './Main/Pages/Login/LoginPage';
 
 function App() {
   return (
-    <body>
-      <Navbar />
+    <>
+      {window.location.pathname =='/login'?<></>:<Navbar />}
       <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path='/login' element={<Login />} />
         <Route path='/about' element={<AboutPage/>}/>
         <Route path='/services' element={<ServicePage/>}/>
         <Route path='/explore' element={<CalculPage/>}/>
@@ -26,8 +28,8 @@ function App() {
         <Route path="/testimonials" element={<Testimonials/>}/>
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
-      <Footer />
-    </body>
+      {window.location.pathname =='/login'?<></>:<Footer />}
+    </>
   )
 }
 
