@@ -2,7 +2,7 @@ import React from 'react'
 import loginBgImage from '../../../../img/book3.jpg'
 import logos from '../../../../img/romansonsLogo.png'
 
-const LoginComp = () => {
+const SignupComp = () => {
     return (
         <div style={{height:'100vh'}}>
             <div className="container-fluid h-100 g-0 login-bg">
@@ -35,19 +35,23 @@ const LoginComp = () => {
                     </div>
                     <div className='login-cont-right'>
                         <div className='login-form-cont'>
-                            <div className='login-header'>Login</div>
+                            <div className='login-header'>Signup</div>
                             <form action="" className="login-form">
                                 <div className="inputContainer">
                                     <label className="login-label">Email</label>
-                                    <input type="text" className="input" placeholder="Enter Your Email address" />
+                                    <input type="text" className="input" placeholder="a" />
 
                                 </div>
                                 <div className="inputContainer">
+                                    <label className="login-label">Username</label>
+                                    <input type="text" className="input" placeholder="a" />
+                                </div>
+                                <div className="inputContainer">
                                     <label className="login-label">Password</label>
-                                    <input type="password" className="input" placeholder="Enter your Password" />
+                                    <input type="password" className="input" placeholder="a" />
                                 </div>
                                 <div className="submitBtnConts">
-                                    <input type="submit" className="submitBtn" value="Login"></input>
+                                    <input type="submit" className="submitBtn" value="Signup"></input>
                                 </div>
                             </form>
                             <div className='join-text'><span>New to Romansons ? </span><span><a href="signup">Join Now</a></span></div>
@@ -74,4 +78,4 @@ const LoginComp = () => {
     )
 }
 
-export default LoginComp
+export default SignupComp
