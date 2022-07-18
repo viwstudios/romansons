@@ -199,3 +199,10 @@ label {
   outline: dotted 1px #CCC;
   outline-offset: 0.45rem;
 }
+.h2-styling{
+  padding-bottom: 5%;
+}
+
+.padding-bottom{
+  padding-bottom: 8%;
+}
